@@ -8,6 +8,7 @@ Open Source | kill feed for free! its free cause why not!?
 - **Drive-By Detection**
 - **Kill/Died/Else diffrent colors**
 - **Good Looking UI**
+- **Just drag and ensure**
 - **Easily and fully configurable**
 # Showcase
 ![killfeed](https://i.gyazo.com/2ba6e0b1a6f938ead3458440cf233033.png)
