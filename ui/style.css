@@ -1,0 +1,97 @@
+body {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Standard */
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  img {
+    pointer-events: none; /* Prevents the image from being draggable */
+}
+
+.killfeed {
+    position: absolute;
+    right: 0%;
+    width: auto;
+    height: 500px;
+    margin: 10px;
+   /* border: 2px solid black; */
+   display: flex; /* Use flexbox layout */
+   flex-direction: column; /* Arrange children in a column */
+   align-items: flex-end; /* Align items to the start (left side) */
+}
+
+.killContainer {
+  /*  border: 1px solid rgba(0, 0, 0, 0.3); */
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    width: auto;
+    height: 25px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    box-shadow: 0px 10px 50px 10px rgba(0,0,0,0.3);
+    color: white;
+}
+
+.kill {
+    background: rgba(0, 160, 150, 0.7);
+    box-shadow: 0px 10px 50px 10px rgba(0, 160, 150,0.3);
+}
+
+.died {
+    background: rgba(220, 0, 0, 0.7);
+    box-shadow: 0px 10px 50px 10px rgba(220, 0, 0, 0.3);
+}
+
+.weaponPNG {
+    width: auto; /* Set the width of the container */
+    height: 30px; /* Set the height of the container */
+    overflow: hidden;
+}
+
+.weaponPNG img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg); 
+}
+
+.headshotPNG {
+    width: auto; /* Set the width of the container */
+    height: 30px; /* Set the height of the container */
+    overflow: hidden;
+}
+
+.headshotPNG img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg);
+}
+
+.skullPNG {
+    width: auto; /* Set the width of the container */
+    height: 30px; /* Set the height of the container */
+    overflow: hidden;
+}
+
+.skullPNG img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    display: block;
+}
